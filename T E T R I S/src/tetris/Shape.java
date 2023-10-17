@@ -65,7 +65,7 @@ public class Shape {
             timePassedFromCollision = -1;
         }
 
-        // check moving horizontal
+      
         if (!(x + deltaX + coords[0].length > 10) && !(x + deltaX < 0)) {
 
             for (int row = 0; row < coords.length; row++) {

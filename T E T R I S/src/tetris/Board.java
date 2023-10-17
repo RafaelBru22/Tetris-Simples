@@ -52,7 +52,7 @@ public class Board extends JPanel implements KeyListener, MouseListener, MouseMo
     private Color[] colors = {Color.decode("#ed1c24"), Color.decode("#ff7f27"), Color.decode("#fff200"),
         Color.decode("#22b14c"), Color.decode("#00a2e8"), Color.decode("#a349a4"), Color.decode("#3f48cc")};
     private Random random = new Random();
-    // buttons press lapse
+    
     private Timer buttonLapse = new Timer(300, new ActionListener() {
 
         @Override
